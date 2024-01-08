@@ -169,37 +169,79 @@ main {
 
 /* resume section styles  */
 
-.resume-container{
-    margin-left: 180px; 
+.resume-container {
+    margin-left: 180px;
     display: flex;
     gap: 70px;
 }
-.resume-columen-title{
-    color:#474747;
+
+.resume-columen-title {
+    color: #474747;
     font-size: 30px;
     font-weight: 700;
     /* margin-bottom: 10px;  */
-    
+
 }
-.resume-item-institute{
+
+.resume-item-institute {
     color: #474747;
     font-size: 20px;
     font-weight: 600;
     margin: 0 0 20px 0px;
 }
-.resume-item-description{
+
+.resume-item-description {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-}.resume-container hr{
+}
+
+.resume-container hr {
     margin: 30px;
 }
 
-.last-downlode{
+.last-downlode {
     text-align: center;
     margin-left: 15%;
     margin-top: 50px;
     border-radius: 5px;
 
 }
+
+/* footer section styles */
+.div {
+    padding-left: 21%;
+    
+
+
+}
+
+footer {
+    background-color: #e9dfd7;
+    margin-top: 30px;
+    display: flex;
+    padding-left: 21%;
+    gap: 50px;
+}
+.footer-column{
+    width: 50%;
+}
+.section-title {
+    color: #181818;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+.contact, input[type="text"],input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 0 grey solid;
+    background: #FFF;
+    color: #757575;
+    padding: 18px 35px;
+    width: 70%;
+}
+
